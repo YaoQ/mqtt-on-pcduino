@@ -30,7 +30,7 @@ client.on_message = on_message
 setup()
 
 try:
-    client.connect("192.168.1.106", 1883, 60)
+    client.connect("<your IP address>", 1883, 60)
     client.loop_forever()
 
 except KeyboardInterrupt:
